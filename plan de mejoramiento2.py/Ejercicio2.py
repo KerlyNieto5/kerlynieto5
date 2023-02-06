@@ -1,3 +1,5 @@
+# programa que muestre segun corresponda si es aascendente , descendete o igual.
+
 def funcion (a,b):
     
     if a>b:
