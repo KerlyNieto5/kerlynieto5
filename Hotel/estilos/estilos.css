@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --color_verde: #5EB319;
+    --color_gris: #707070;
+    --color_azul: #005f91;
+    --color_blanco: #ffffff;
+    --alto_height: 108px;
+
+}
+
+body {
+    width: 100%;
+    height: 1200px;
+    background-color: var(--color_gris);
+
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 15%;
+    background-color: var(--color_verde);
+    margin: auto;
+    position: relative;
+    display: flex;
+
+}
+
+/*Cabeza izquierda*/
+header .cab_izq {
+    width: 30%;
+    height: var(--alto_height);
+    background-color: var(--color_verde);
+}
+
+header .cab_izq .logo_sena {
+    width: 40%;
+    height: 95%;
+    background-color: var(--color_verde);
+    margin: auto;
+}
+
+header .cab_izq .logo_sena img {
+    width: 50%;
+    height: auto;
+    max-width: 100px;
+    margin-left: 25%;
+
+}
+
+
+
+
+/*Cabeza central*/
+
+header .central {
+    width: 40%;
+    height: var(--alto_height);
+    background-color: var(--color_verde);
+}
+
+
+header .central p {
+    color: var(--color_blanco);
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+
+
+/* Cabeza derecha */
+header .cab_der {
+    width: 30%;
+    height: var(--alto_height);
+    background-color: var(--color_verde);
+
+}
+
+header .cab_der ul {
+    color: var(--color_blanco);
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    padding: 40px;
+    list-style-type: none;
+
+
+}
+
+header .cab_der ul li {
+    color: var(--color_blanco);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #ffffff;
+
+}
+
+
+header .cab_der ul li a {
+    font-size: 20px;
+    color: var(--color_blanco);
+    margin: 20px;
+    padding: 40px;
+    text-align: justify;
+    color: var(--color_blanco);
+    text-decoration: none;
+
+}
+
+
+header .nav {
+    width: 100%;
+    height: 40%;
+    background-color: var(--color_gris);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border: 2px solid var(--color_blanco);
+}
+
+header .nav ul {
+    color: var(--color_blanco);
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    list-style-type: none;
+
+}
+
+header .nav ul li {
+    color: var(--color_blanco);
+    width: 100%;
+    height: 69px;
+    padding-top: 30px;
+    float: left;
+    text-align: center;
+    border: 1px solid #ffffff;
+
+}
+
+
+header .nav ul li a {
+    font-size: 17px;
+    color: var(--color_blanco);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color: var(--color_blanco);
+    text-decoration: none;
+
+}
+
+
+
+/* seccion */
+
+section {
+    background-color: var(--color_verde);
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+
+
+section .sec_izq {
+    width: 30%;
+    height: 1200px;
+    background-color: var(--color_blanco);
+}
+
+section .sec_izq .hotel {
+    width: 80%;
+    height: 1200px;
+    background-color: var(--color_verde);
+    margin: auto;
+}
+
+
+
+section .sec_izq .hotel img {
+    width: 80%;
+    height: 1000px;
+    margin: 50px;
+}
+
+section .sec_der {
+    width: 70%;
+    height: 1200px;
+    background-color: var(--color_verde);
+}
